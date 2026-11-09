@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Veri ve modeller (büyük dosyalar repoya konmaz, script ile indirilir)
+data/*
+!data/.gitkeep
+models/
+
+# Sistem / editör
+.DS_Store
+Thumbs.db
+.vscode/
+desktop.ini
